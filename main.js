@@ -20,8 +20,8 @@ function modelloaded(){
 }
 
 function gotposes(result){
-    nosex = result[0].pose.nose.x;
-    nosey = result[0].pose.nose.y+10;
+    nosex = result[0].pose.nose.x-40;
+    nosey = result[0].pose.nose.y;
     console.log(result);
     console.log("nosex =" + nosex);
     console.log("nosey =" + nosey);
